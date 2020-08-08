@@ -1,0 +1,58 @@
+@import '../variables.css';
+
+.container {
+  position: relative;
+}
+
+.datePicker {
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  margin-top: 15px;
+  padding: 5px 12px;
+  position: absolute;
+  right: 0;
+  width: fit-content;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.datePicker::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 70%;
+  margin-top: var(--default-space-neg);
+  border-width: var(--small-space);
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.radioGroup {
+  margin: 15px 10px;
+}
+
+.radio {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  margin: 5px 0;
+}
+
+.label {
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

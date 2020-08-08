@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rec1nQxNQjFlOWoeb",
+    "Name": "V1 Display",
+    "Resolution - Width": 1080,
+    "Resolution - Height": 1920,
+    "Dimension - Width": 31.7,
+    "Dimension - Height": 56.3,
+    "Screen Count - Horizontal": 1,
+    "Screen Count - Vertical": null,
+    "Video Supported": true,
+    "Spot Length": ["15"],
+    "Loop Length": 60,
+    "Sides": 1,
+    "Endpoint Category": ["Transit - Car Fins"]
+  },
+  {
+    "id": "recjYMPuisY3YF2hs",
+    "Name": "V2 Display",
+    "Resolution - Width": 1920,
+    "Resolution - Height": 1080,
+    "Dimension - Width": 58.0,
+    "Dimension - Height": 33.0,
+    "Screen Count - Horizontal": 1,
+    "Screen Count - Vertical": null,
+    "Video Supported": true,
+    "Spot Length": ["15"],
+    "Loop Length": 60,
+    "Sides": 1,
+    "Endpoint Category": ["Transit - Car Fins"]
+  },
+  {
+    "id": "recffD2EzmOvi6SKj",
+    "Name": "V3 Display",
+    "Resolution - Width": 4098,
+    "Resolution - Height": 1920,
+    "Dimension - Width": 120.3,
+    "Dimension - Height": 56.3,
+    "Screen Count - Horizontal": 1,
+    "Screen Count - Vertical": null,
+    "Video Supported": true,
+    "Spot Length": ["15"],
+    "Loop Length": 60,
+    "Sides": 1,
+    "Endpoint Category": ["Transit - Car Fins"]
+  }
+]

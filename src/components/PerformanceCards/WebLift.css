@@ -1,0 +1,5 @@
+@import '../variables.css';
+
+.helpMessage {
+  margin-bottom: var(--default-space);
+}

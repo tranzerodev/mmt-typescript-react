@@ -1,0 +1,16 @@
+.container {
+  height: fit-content;
+  position: relative;
+}
+
+.mapContainer {
+  align-items: center;
+  height: 400px;
+}
+
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,99 @@
+{
+  "Company": "Lightout",
+  "Title": "Lightout Portal",
+  "Description": "Improve your online presence with a personalized Portal that attracts new leads and improves retention of existing clients.",
+  "MetaDescription": "Improve your online presence with a personalized Portal that attracts new leads and improves retention of existing clients.",
+  "CompanyEmail": "hello@lightout.com",
+  "SignoutRedirectURL": "https://www.lightout.com",
+  "useMockProducts": false,
+  "useMockEndpoints": false,
+  "useMockMovingEndpoints": false,
+  "useMockMetrics": true,
+  "portalHeader": "lightout",
+  "businessMode": "b2b",
+  "AWS": {
+    "Auth": {
+      "identityPoolId": "us-west-2:913447c3-402f-412a-bb23-dcc2f2f69e95",
+      "region": "us-west-2",
+      "userPoolId": "us-west-2_LfWPrUY5g",
+      "userPoolWebClientId": "4q25u65rgrd4ptiafgla9rkbgo",
+      "mandatorySignIn": false
+    },
+    "Storage": {
+      "bucket": "ridebill-userfiles-mobilehub-310871815",
+      "region": "us-west-2"
+    },
+    "API": {
+      "endpoints": [
+        {
+          "name": "LightoutApi",
+          "endpoint": "https://uex9lkwul8.execute-api.us-west-2.amazonaws.com/dev",
+          "region": "us-west-2"
+        }
+      ]
+    }
+  },
+  "theme": {
+    "palette": {
+      "primary": {
+        "main": "#303141",
+        "light": "#5a5a6c",
+        "dark": "#09081b",
+        "contrastText": "#fff"
+      },
+      "secondary": {
+        "light": "#fff",
+        "main": "#fff",
+        "dark": "#ccc",
+        "contrastText": "#000"
+      },
+      "error": {
+        "contrastText": "#fff",
+        "dark": "#b71c1c",
+        "main": "#e53935",
+        "light": "#ef5350"
+      },
+      "text": {
+        "primary": "#263238",
+        "secondary": "#546e7a",
+        "link": "#1e88e5"
+      },
+      "link": "#1565c0",
+      "icon": "#546e7a",
+      "background": {
+        "default": "#F4F6F8",
+        "paper": "#fff"
+      },
+      "divider": "#eee"
+    }
+  },
+  "assets": {
+    "icon": {
+      "faviconUrl": "https://lightout-portal.s3-us-west-2.amazonaws.com/public/lightout/favicon.ico",
+      "imageUrl": "https://lightout-portal.s3-us-west-2.amazonaws.com/public/lightout/logomark_black.png"
+    },
+    "logoMark": {
+      "svgUrl": "https://lightout-portal.s3-us-west-2.amazonaws.com/public/lightout/logomark_white.svg",
+      "pngUrl": ""
+    },
+    "logoStyle": {
+      "filter": "brightness(0) invert(1)",
+      "height": "35px"
+    },
+    "authImage": {
+      "signInUrl": "",
+      "signInStyle": {},
+      "signUpUrl": "",
+      "signUpStyle": {}
+    },
+    "socialShareImage": {
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=webp&v=1530129081",
+      "imageStyle": {}
+    }
+  },
+  "features": {
+    "createEndpointSelectDisabled": false,
+    "myPortalSectionDisabled": false,
+    "resourceSectionDisabled": false
+  }
+}

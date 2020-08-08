@@ -1,0 +1,14 @@
+@import '../variables.css';
+
+.helpMessage {
+  margin-bottom: var(--default-space);
+}
+
+.addressList {
+  height: 200px;
+  overflow: scroll;
+}
+
+.addressItem {
+  padding-left: var(--small-space);
+}

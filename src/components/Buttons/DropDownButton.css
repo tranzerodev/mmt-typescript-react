@@ -1,0 +1,27 @@
+@import '../variables.css';
+
+.container {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-bottom: var(--thin-border);
+  border-radius: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 38px;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: relative;
+  width: 240px;
+}
+
+.btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.text {
+  margin-left: 5px;
+}

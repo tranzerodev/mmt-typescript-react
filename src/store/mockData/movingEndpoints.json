@@ -1,0 +1,90 @@
+[
+  {
+    "treePath": ["San Francisco"],
+    "month_1": 45000,
+    "month_2": 45000,
+    "month_3": 60000,
+    "month_4": 60000,
+    "month_5": 60000
+  },
+  {
+    "treePath": ["San Francisco", "SOMA"],
+    "hourlyImpressions": 1200,
+    "month_1": 10000,
+    "month_2": 10000,
+    "month_3": 20000,
+    "month_4": 20000,
+    "month_5": 20000
+  },
+  {
+    "treePath": ["San Francisco", "Mission"],
+    "hourlyImpressions": 1400,
+    "month_1": 9000,
+    "month_2": 9000,
+    "month_3": 14000,
+    "month_4": 14000,
+    "month_5": 14000
+  },
+  {
+    "treePath": ["San Francisco", "FiDi"],
+    "hourlyImpressions": 1300,
+    "month_1": 7000,
+    "month_2": 7000,
+    "month_3": 7000,
+    "month_4": 7000,
+    "month_5": 7000
+  },
+  {
+    "treePath": ["San Francisco", "Others"],
+    "hourlyImpressions": 900,
+    "month_1": 19000,
+    "month_2": 19000,
+    "month_3": 19000,
+    "month_4": 19000,
+    "month_5": 19000
+  },
+  {
+    "treePath": ["New York City"],
+    "month_1": 62000,
+    "month_2": 62000,
+    "month_3": 62000,
+    "month_4": 62000,
+    "month_5": 62000
+  },
+  {
+    "treePath": ["New York City", "Lower Manhattan"],
+    "hourlyImpressions": 2200,
+    "month_1": 14000,
+    "month_2": 14000,
+    "month_3": 14000,
+    "month_4": 14000,
+    "month_5": 14000
+  },
+  {
+    "treePath": ["New York City", "Midtown"],
+    "hourlyImpressions": 1900,
+    "month_1": 12000,
+    "month_2": 12000,
+    "month_3": 12000,
+    "month_4": 12000,
+    "month_5": 12000
+  },
+  {
+    "treePath": ["New York City", "Upper Manhattan"],
+    "hourlyImpressions": 1200,
+    "month_1": 8000,
+    "month_2": 8000,
+    "month_3": 8000,
+    "month_4": 8000,
+    "month_5": 8000
+  },
+  {
+    "treePath": ["New York City", "Others"],
+    "hourlyImpressions": 1400,
+    "month_1": 28000,
+    "month_2": 28000,
+    "month_3": 28000,
+    "month_4": 28000,
+    "month_5": 28000
+  }
+]

@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo Entered the install phase...
+      - apt-get update -y
+      - apt-get install apt-transport-https
+      # Setup for Yarn
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+      # Install
+      - apt-get update -y
+      - apt-get install -y yarn
+  pre_build:
+    commands:
+      - yarn install --ignore-platform
+  build:
+    commands:
+      - yarn build --release --portal=$portalConfig
+  post_build:
+    commands:
+      - cp -r .ebextensions build/.ebextensions
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build

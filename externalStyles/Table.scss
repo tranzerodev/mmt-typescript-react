@@ -1,0 +1,86 @@
+@import '../src/components/variables.css';
+
+$ag-icons-path: '../node_modules/ag-grid-community/src/styles/ag-theme-material/icons/';
+
+$foreground-color: #050f19;
+$header-foreground-color: $foreground-color;
+$border-color: #eceff1;
+
+$font-size: 18px;
+$font-family: var(--font-family-base);
+$font-weight: 300;
+$secondary-font-size: $font-size;
+$secondary-font-weight: $font-weight;
+
+$header-background-color: #fff;
+$header-font-size: 14px;
+$header-font-weight: 300;
+$header-color: rgba(17, 51, 83, 0.6);
+
+$row-font-size: 17px;
+$row-font-weight: 300;
+$row-background-color: #fff;
+$selected-row-background: #eee;
+$hovered-row-background: #fafafa;
+
+$row-height: 60px;
+$header-height: 60px;
+
+@import '../node_modules/ag-grid-community/src/styles/ag-grid.scss';
+@import '../node_modules/ag-grid-community/src/styles/ag-theme-material/sass/ag-theme-material.scss';
+
+//add any customizations to ag sass here
+.ag-theme-material {
+  // Image Renderer styles
+  .image-renderer .ag-react-container {
+    height: 100%;
+  }
+
+  .ag-header {
+    font-family: var(--font-family-base);
+    font-size: $header-font-size;
+    font-weight: $header-font-weight;
+    background-color: $header-background-color;
+    color: $header-color;
+
+    .ag-header-cell .ag-react-container {
+      width: 100%;
+    }
+  }
+
+  .ag-row {
+    font-size: $row-font-size;
+    font-weight: $row-font-weight;
+    background-color: $row-background-color;
+  }
+
+  .ag-row-selected {
+    background-color: $selected-row-background;
+  }
+
+  .ag-row-hover {
+    background-color: $hovered-row-background;
+  }
+
+  .ag-root {
+    border-bottom: none;
+  }
+
+  .ag-rtl,
+  .ag-ltr {
+    .ag-has-focus {
+      .ag-cell-focus {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}
+
+.select-cell .ag-cell-wrapper {
+  justify-content: center;
+}
+
+.ag-overlay-no-rows-wrapper.ag-layout-auto-height {
+  padding-top: $row-height;
+}

@@ -1,0 +1,7 @@
+.container > div {
+  margin-bottom: var(--small-space);
+}
+
+.detailsList {
+  margin-left: var(--default-space);
+}

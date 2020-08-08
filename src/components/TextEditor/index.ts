@@ -1,0 +1,1 @@
+export { SlateTextEditor } from './SlateTextEditor';

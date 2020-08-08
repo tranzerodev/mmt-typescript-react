@@ -1,0 +1,30 @@
+@import '../variables.css';
+
+.container {
+  background-color: #fff;
+  left: 50%;
+  padding: var(--default-space);
+  position: absolute;
+  outline: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.modalHeader {
+  position: relative;
+}
+
+.title {
+  font-size: var(--font-size-main-5);
+  text-align: center;
+}
+
+.modalBody {
+  margin-top: var(--default-space);
+}
+
+.modalFooter {
+  margin-top: var(--default-space);
+  text-align: center;
+}

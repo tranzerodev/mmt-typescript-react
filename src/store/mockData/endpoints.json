@@ -1,0 +1,77 @@
+[
+  {
+    "EndpointId": "Firefly_182742",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_182743",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_182744",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_182745",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "Los Angeles, CA"
+  },
+  {
+    "EndpointId": "Firefly_182746",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "Los Angeles, CA"
+  },
+  {
+    "EndpointId": "Firefly_182747",
+    "ScreenTypes": ["V1 Display"],
+    "DMA": "Los Angeles, CA"
+  },
+  {
+    "EndpointId": "Firefly_789231",
+    "ScreenTypes": ["V2 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_789232",
+    "ScreenTypes": ["V2 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_789233",
+    "ScreenTypes": ["V2 Display"],
+    "DMA": "San Francisco et al, CA"
+  },
+  {
+    "EndpointId": "Firefly_789234",
+    "ScreenTypes": ["V2 Display"],
+    "DMA": "Los Angeles, CA"
+  },
+  {
+    "EndpointId": "Firefly_789235",
+    "ScreenTypes": ["V2 Display"],
+    "DMA": "Los Angeles, CA"
+  },
+  {
+    "EndpointId": "Firefly_789236",
+    "ScreenTypes": ["Sunrise Display"],
+    "DMA": "New York, NY"
+  },
+  {
+    "EndpointId": "Firefly_789237",
+    "ScreenTypes": ["Sunrise Display"],
+    "DMA": "New York, NY"
+  },
+  {
+    "EndpointId": "Firefly_789238",
+    "ScreenTypes": ["Sunrise Display"],
+    "DMA": "New York, NY"
+  },
+  {
+    "EndpointId": "Firefly_789239",
+    "ScreenTypes": ["Sunrise Display"],
+    "DMA": "New York, NY"
+  }
+]

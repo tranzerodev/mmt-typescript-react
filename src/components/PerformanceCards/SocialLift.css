@@ -1,0 +1,15 @@
+@import '../variables.css';
+
+.helpMessage {
+  margin-bottom: var(--default-space);
+}
+
+.sectionLabel {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.checkboxWrapper {
+  padding-bottom: 0;
+  padding-top: 0;
+}

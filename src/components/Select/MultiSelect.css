@@ -1,0 +1,15 @@
+@import '../variables.css';
+
+.chips {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chips > div {
+  margin: 2px;
+}
+
+.largeRoot.select {
+  padding: 20px 10px;
+}

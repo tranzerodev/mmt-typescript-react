@@ -1,0 +1,91 @@
+.root {
+  vertical-align: middle;
+}
+
+.wrap {
+  -webkit-box-pack: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.mainImg {
+  height: 55vh;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 16px;
+  position: absolute;
+  max-width: 85%;
+  margin: 0 auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: opacity 150ms ease-in-out 0s, transform 150ms ease-in-out 0s;
+}
+
+.arrowButton {
+  width: 50%;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.leftArrow {
+  left: 0;
+}
+
+.rightArrow {
+  right: 0;
+  justify-content: flex-end;
+}
+
+.image {
+  width: 48px;
+  cursor: pointer;
+}
+
+@media (max-width: 744px) {
+  .root {
+    display: none;
+  }
+}
+
+@media (min-width: 744px) {
+  .root {
+    height: 65vh;
+    width: 100vw;
+    display: table-cell;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1128px) {
+  .root {
+    width: 100%;
+    margin-bottom: 0;
+    height: 100vh;
+    padding-top: 0;
+  }
+
+  .wrap {
+    height: 100%;
+  }
+
+  .mainImg {
+    height: 75vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .root {
+    padding: 64px;
+    padding-top: 0;
+  }
+}

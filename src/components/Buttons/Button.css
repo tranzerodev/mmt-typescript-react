@@ -1,0 +1,36 @@
+@import '../variables.css';
+
+.btn {
+  border: none;
+  font-family: var(--font-family-base);
+  font-weight: bold;
+  height: 40px;
+  min-width: 140px;
+  outline: none !important;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.secondary {
+  background-color: #000;
+  color: #fff;
+}
+
+.normal {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.title {
+  font-size: var(--font-heading);
+}
+
+.small {
+  font-size: var(--font-size-smaller);
+  height: 24px;
+  line-height: 100%;
+  min-width: 100px;
+}

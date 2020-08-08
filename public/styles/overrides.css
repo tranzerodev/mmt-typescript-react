@@ -1,0 +1,71 @@
+.Selectable
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.Selectable .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.Selectable .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.rv-xy-plot__axis__tick__text {
+  fill: #878b91;
+}
+
+.ReactTable .-pagination .-pageJump input {
+  width: 40px;
+}
+
+.ReactTable .rt-thead .rt-th.rt-resizable-header {
+  align-items: center;
+  display: flex;
+  outline: none;
+}
+
+.ReactTable .rt-tbody .rt-td {
+  align-items: center;
+  display: flex;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-th.-sort-asc {
+  box-shadow: none;
+  position: relative;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 10%;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 10%;
+}
+
+.ReactTable .rt-tr {
+  height: 45px;
+}
+
+.modal-content {
+  border-radius: 0;
+}

@@ -1,0 +1,10 @@
+@import '../variables.css';
+
+.iconContainer {
+  display: flex;
+  margin-left: 5px;
+}
+
+.infoTooltip {
+  padding: 5px 12px;
+}

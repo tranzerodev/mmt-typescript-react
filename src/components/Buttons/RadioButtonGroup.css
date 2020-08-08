@@ -1,0 +1,65 @@
+@import '../variables.css';
+
+.toggleButtonGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.toggleButtonInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.toggleButtonLabel {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.toggleButtonItem {
+  background-color: var(--gray-light);
+  border-left: var(--normal-border);
+  border-right: var(--normal-border);
+  box-sizing: border-box;
+  padding: 6px 12px;
+  flex: 1;
+  min-width: 80px;
+  max-width: 184px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.toggleButtonItem:first-child {
+  border-left: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.toggleButtonItem:last-child {
+  border-right: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.toggleButtonItem:not(.disabledToggleButtonItem):hover {
+  background-color: var(--selectedItem);
+}
+
+.toggleButtonInput:not(:disabled):hover {
+  cursor: pointer;
+}
+
+.disabledToggleButtonItem {
+  opacity: 0.7;
+}
+
+.selectedToggleButtonItem {
+  background-color: var(--selectedItem);
+}

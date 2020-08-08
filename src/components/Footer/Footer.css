@@ -1,0 +1,38 @@
+@import '../variables.css';
+
+.root {
+  background-color: var(--black);
+  color: #fff;
+  display: flex;
+  min-height: 60px;
+}
+
+.sticks {
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: stretch;
+}
+
+.padded {
+  padding-left: 32px;
+  padding-right: 32px;
+  z-index: 4;
+}
+
+@media (min-width: 1128px) {
+  .padded {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1428px) {
+  .padded {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}

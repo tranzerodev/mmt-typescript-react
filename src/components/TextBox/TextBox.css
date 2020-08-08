@@ -1,0 +1,64 @@
+@import '../variables.css';
+
+.root {
+  border-bottom: var(--section-border);
+  display: flex;
+  align-items: center;
+}
+
+.root:focus-within {
+  border-bottom: 1px solid #000;
+}
+
+.input {
+  border: none;
+  float: none;
+  font-size: var(--font-size-larger);
+  height: 28px;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: 100%;
+}
+
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input::-ms-input-placeholder,
+.input:-ms-input-placeholder {
+  color: #6a6a6a;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6a6a6a;
+  opacity: 1; /* Firefox */
+}
+
+.inactiveInput {
+  color: var(--gray);
+}
+
+.full {
+  width: 100%;
+}
+
+.small {
+  max-width: 250px;
+}
+
+.noSpace {
+  padding: 0;
+  margin: 0;
+}
+
+.paddingLeft:not(:first-child) {
+  margin-left: 20px;
+}

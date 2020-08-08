@@ -1,0 +1,87 @@
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+  --font-family-base: 'Cabin', sans-serif;
+  --font-size-smaller: 13px;
+  --font-size-info: 14px;
+  --font-size-base: 16px;
+  --font-size-larger: 16px;
+  --font-size-large: 24px;
+  --font-heading: 20px;
+  --font-size-hover: 20px;
+  --font-color: rgba(0, 0, 0, 0.9);
+  --font-gray: #878b91;
+  --font-heavy: 500;
+  --font-bold: 600;
+  --font-size-navbar: 15px;
+  --font-size-main-3: 40px;
+  --font-size-main-4: 35px;
+  --font-size-main-5: 25px;
+  --font-size-main-6: 20px;
+  --font-size-main-7: 18px;
+  --font-size-body: 14px;
+  --font-size-label: 12px;
+
+  /* typography: h5 = 24px; */
+
+  /* typography: h6 = 20px; */
+
+  /*
+   * Colors
+   * ======================================================================== */
+  --red-normal: #e1583d;
+  --primary-color: var(--red-normal);
+  --gray-label: rgba(102, 102, 102, 0.9);
+  --gray: #bdbdbd; /* #555 */
+  --gray-light: #e4e4e4;
+  --gray-lighter: #f7f7f7;
+  --selectedItem: #8df7ab;
+  --unSelectedItem: #ef8f8f;
+  --table-outer-border-color: rgba(0, 0, 0, 0.1);
+  --table-inner-border-color: rgba(0, 0, 0, 0.05);
+  --table-hover-bg-color: var(--table-inner-border-color);
+  --table-odd-bg-color: rgba(0, 0, 0, 0.03);
+  --black: #1f2023;
+
+  /*
+   * Layout
+   * ======================================================================== */
+  --xsmall-space: 5px;
+  --small-space: 10px;
+  --small-space-neg: -10px;
+  --default-space: 20px;
+  --default-space-neg: -20px;
+  --section-space: 24px;
+  --page-space: 32px;
+  --max-content-width: 1000px;
+  --cell-height: 100px;
+  --min-table-height: 40px;
+  --navigation-start-padding: 160px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min: 480px; /* Extra small screen / phone */
+  --screen-sm-min: 768px; /* Small screen / tablet */
+  --screen-md-min: 992px; /* Medium screen / desktop */
+  --screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+  /*
+ * Borders
+ * ========================================================================== */
+  --section-border: solid 1px #e4e7ec;
+  --normal-border: solid 1px var(--gray);
+  --thick-border: solid 3px #000;
+  --thin-border: 1px solid #dedede;
+  --round-radius: 25px;
+  --appBorderRadius: 30px 30px 0 0;
+  --normalBorderRadius: 24px;
+
+  /*
+ * Overlap Indexes
+ * ========================================================================== */
+  --textboxActionIconIndex: 1;
+  --loadingMaskIndex: 3;
+}

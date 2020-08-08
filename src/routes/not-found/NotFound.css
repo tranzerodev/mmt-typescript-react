@@ -1,0 +1,9 @@
+@import '../../components/variables.css';
+
+.container {
+  padding: 0 0 40px;
+}
+
+.container p {
+  margin-top: var(--default-space);
+}

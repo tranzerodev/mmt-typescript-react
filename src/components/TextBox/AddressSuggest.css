@@ -1,0 +1,65 @@
+@import '../variables.css';
+
+.searchContainer {
+  max-width: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  box-sizing: border-box;
+  padding: var(--small-space);
+  width: 100%;
+}
+
+.input:focus {
+  border-color: #267dc0;
+  box-shadow: 0 0 0 transparent;
+}
+
+.suggest {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 25em;
+  padding: 0;
+  margin-top: -1px;
+  background: #fff;
+  border: 2px solid #267dc0;
+  border-top-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  list-style: none;
+  z-index: 5;
+  -webkit-transition: max-height 0.2s, border 0.2s;
+  transition: max-height 0.2s, border 0.2s;
+}
+
+.hiddenSuggest {
+  max-height: 0;
+  overflow: hidden;
+  border-width: 0;
+}
+
+.suggestItem {
+  font-size: 18px;
+  font-size: 1rem;
+  padding: 0.5em 0.65em;
+  cursor: pointer;
+}
+
+.suggestItem:hover,
+.suggestItem:focus {
+  background: #f5f5f5;
+}
+
+.activeSuggestItem {
+  background: #267dc0;
+  color: #fff;
+}
+
+.activeSuggestItem:hover,
+.activeSuggestItem:focus {
+  background: #ccc;
+}

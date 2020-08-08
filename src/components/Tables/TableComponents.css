@@ -1,0 +1,21 @@
+@import '../variables.css';
+
+.headerText {
+  float: left;
+}
+
+.emptyExpander {
+  display: inline-block;
+  margin-left: 26.5px;
+}
+
+.actionRow {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tableInput {
+  width: 100%;
+}

@@ -1,0 +1,5 @@
+@import '../../components/variables.css';
+
+.textSection {
+  margin: var(--default-space) 0;
+}
